@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.bgContainer {
+    background-color: #FFA500;
+}
+
+.card-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.priceContainer {
+    background-color: rgb(210, 238, 247);
+    min-width: 130px;
+}
+
+.priceC {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.feesAmount {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.rupeeSymbol {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.additionalFees {
+    color: blue;
+    font-weight: 500;
+}
+
+.additionalFees-1 {
+    color: black;
+}
+
+.eachCard {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.description {
+    text-align: left;
+    font-size: 14px;
+}
+
+.bgContainer-1 {
+    background-color: #FFA500;
+    display: none;
+}
+
+.anchorEl {
+   padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .bgContainer {
+        display: none;
+    }
+
+    .bgContainer-1 {
+        background-color: #FFA500;
+        display: block;
+    }
+}
+
+#carouselExampleIndicators {
+    list-style-type: circle;
+}
+
+.carousel-indicators {
+    color: black;
+    background-color: orange;
+}
+
+@media (max-width: 400px) {
+    .bgContainer {
+        display: none;
+    }
+
+    .bgContainer-1 {
+        background-color: #FFA500;
+        display: block;
+    }
+
+    .card-1 {
+        height: 120vh;
+    }
+}
